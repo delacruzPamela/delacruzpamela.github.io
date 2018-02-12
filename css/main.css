@@ -1,0 +1,106 @@
+/*STYLE FOR THE GENERAL & REUSABLE*
+--------------------------------------------------------------------------------*/
+body {
+    background-color: rgb(4, 4, 12);
+    color: white;
+    overflow-x: hidden;
+}
+
+.size-section, .about, .fondo-home, .portfolio, .contact {
+    width: 100%;
+    height: 550px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+/* STYLE FOR THE HEADER - NAV
+--------------------------------------------------------------------------------*/
+
+/* STYLE FOR THE HOME
+--------------------------------------------------------------------------------*/
+.fondo-home {
+    background-size: 100% 650px;
+	/* background-image: url(../assets/images/dev.png); */
+    padding: 15% 0 0 0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn-color {
+    color: white;
+    background-color: green;/*#aa94a1;*/
+    font-size: 20px;
+    text-align: right;
+}
+/* STYLE FOR THE ABOUT ME
+--------------------------------------------------------------------------------*/
+.skill, .portfolio {
+    background-color: #151520;
+    padding: 30px 0px 30px 0px;
+    margin-top: 30px;
+}
+
+.color-gray, form, .icons-desktop {
+    color: rgb(107, 104, 104);
+    font-size: 18px;
+}
+
+.separator li {
+    padding: 5px;
+}
+
+.about-image {
+    height: 9rem;
+    width: 9rem;
+}
+
+span {
+    color: green;
+    font-size: 18px;
+}
+
+i {
+    color: white;
+}
+/* STYLE FOR THE PORTFOLIO
+--------------------------------------------------------------------------------*/
+.portfolio-image {
+    height: 20rem;
+    width: 30rem;
+}
+
+.portfolio-size {
+    margin-top: 50px;
+}
+/* STYLE FOR THE CONTACT ME 
+--------------------------------------------------------------------------------*/
+.form-size {
+    padding: 30px 0px 30px 0px;
+    margin-top: 30px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+contact, input, textarea {
+    margin: 7px 0 7px 0;
+    background-color: #151520;
+}
+
+.color-gray {
+    opacity: 0.5;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+/* STYLE FOR THE FOOTER
+--------------------------------------------------------------------------------*/

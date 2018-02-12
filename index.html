@@ -4,20 +4,208 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>home</title>
-  <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
+  <title>Portfolio Pameladelacruz</title>
+  <!-- Tipo de letra -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,500,600,700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <!-- Iconos a usar -->
+  <script src="https://use.fontawesome.com/76a445f0fd.js"></script>
+  <!-- Foto para pagina web princial -->
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <!-- Iconos para las redes sociales -->
+  <link rel="stylesheet" href="css/fonts/style.css">
+  <!-- Estilos para usar bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <!-- Estilos personalizados -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <!-- SECTION HEADER-->
+  <header>
+    <!--navbar mobile-->
+    <div class="navbar-mobile visible-xs" role="navigation">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" href="#menu-collapse-mobile" aria-expanded="false"></a>
+          <a href="#navbar"><img alt="logo pamela" src="assets\images\loo.png"></a>
+        </div>
+        <div id="menu-collapse-mobile" class="panel-collapse collapse">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#home">HOME</a></li>
+            <li class="list-group-item"><a href="#about">ABOUT</a></li>
+            <li class="list-group-item"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="list-group-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--navbar header-->
+    <nav class="hidden-xs">
+      <div class="container">
+        <div class="row">
+          <a href=""><img src="assets\images\logp.png" class="img-logo" alt="logoPersonal"></a>
+          <ul class="nav navbar-nav navbar-right visible-md visible-lg">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div> 
+    </nav>
+  </header>
 
-  <div id="player"></div>
+  <main>
+    <!-- SECTION HOME-->
+    <section class="fondo-home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="hero visible-xs-block visible-sm-block col-xs-6 col-md-6 text-center">
+            <h4>I'm Pamela De la cruz</h4>
+            <button class="btn btn-default">FrondEnd-Developer</button>
+          </div>
+          <div class="hero visible-md-block visible-lg-block col-xs-12 col-md-6 col-md-offset-1 ">
+            <h2>I'm is Pamela De la cruz Lozano</h2>            
+            <button class="btn btn-color btn-md">FrondEnd-Developer / UxDesign</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/materialize/js/materialize.min.js"></script>
-  <script src="js/auth.js"></script>
-  <script src="js/search.js"></script>
-  <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
-  <script src="js/index.js"></script>
+    <!-- SECTION ABOUT ME-->
+    <section class="about">
+      <div class="container text-center">
+        <div class="row 2 filas">
+          <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+            <h4>ABOUT ME</h4>
+            <p class="color-gray">My name is Pamela De la Cruz. I am passionate about the technological world, I am currently studying <i>FrontEnd developer</i> in <i>Laboratoria</i>, in the future I would like to be a <i>fullstack</i> and <i>uxdesign</i>.</p>  
+          </div>
+        </div>
+        <div class="row skill">  <!--thumbnail -->
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-6 text-right">
+                <ul class="separator">
+                  <li><img src="assets\images\profile\about.png" class="img-circle about-image"></li>
+                  <li><span>FullName:</span> Pamela Delacruz Lozano</li>
+                  <li><span>Birthday:</span> 21 AGUST 1996</li>  
+                  <li><span>Phone Number:</span> (+51) 952672248</li> 
+                  <li><span>E-mail:</span> delacruzlozanop@gmail.com</li>
+                </ul>
+              </div>
+              <div class="col-md-6 text-left">
+                <ul class="separator">
+                  <li><h3 style="font-weight: bold;">SKILLS</h3></li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>    
+                  <li>BOOTSTRAP-MATERIALIZE</li>    
+                  <li>JAVASCRIPT</li>    
+                  <li>JQUERY</li>    
+                  <li>FIREBASE</li>         
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </section>
 
+    <!-- SECTION PORTFOLIO-->
+    <section class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 text-center">
+            <h4>PORTFOLIO</h4>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
+            <ul class="nav navbar-nav navbar-center visible-xs visible-md visible-lg">
+              <li><a href="#">ALL</a></li>
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JAVASCRIPT</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-size">
+          <div class="col-md-4 text-center ">
+            <div class="overlay">
+              <img src="assets/images/portfolio/tictactoefinal.png" class="portfolio-image">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="overlay">
+              <img src="assets/images/portfolio/trelloFinal.PNG" class="portfolio-image">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="overlay">
+              <img src="assets/images/portfolio/pinterestfinal.png" class="portfolio-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT ME -->
+    <section id="contact" class="bg-footer contact">
+      <div class="container-fluids">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 text-center">
+            <h4>CONTACT ME</h4>
+          </div>        
+        </div>
+        <div class="row form-size">
+          <div class="col-xs-12 col-md-8 col-md-offset-2">
+            <form name="sentMessage" id="" novalidate> <!--Creamos formulario-->
+              <input class="form-control color-gray" id="name" type="text" placeholder="Name"> <!--Validamos (required data-validation-required-message="Please enter your name.")-->
+              <input class="form-control color-gray" id="email" type="email" placeholder="Email Address">
+              <input class="form-control color-gray" id="phone" type="tel" placeholder="Phone Number">
+              <textarea class="form-control color-gray" id="message" rows="5" placeholder="Message"></textarea>
+              <div class="submit-button">
+                <button type="submit" class="btn-submit btn-color text-right" id="sendMessageButton">Send Message</button>
+              </div>
+            </form>
+          </div>
+            <!-- <div class="col-xs-2 col-md-3">
+                <ul class="visible-xs nav navbar-nav text-center icons-mobile">
+                  <li><a href="#" class="fa fa-facebook-official"></a></li> 
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-apple"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-play"></a></li>
+                </ul> 
+            </div> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SECTION FOOTER -->
+  <footer class="footer" class="bg-footer">
+    <div class="container-fluid">
+      <div class="row dos-columna">
+        <div class="col-md-12 text-center">
+          <div class="col-md-6">
+            <address> ©2018 Pamela De la cruz Pozano</address>
+          </div>
+          <div class="col-md-6 hidden-xs text-right">
+            <ul class="nav navbar-nav icons-desktop">
+              <li><a href="#" class="fa fa-facebook-official "></a></li> 
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-github"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li><a href="#" class="fa fa-at"></a></li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="vendors/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src= "js/app.js"></script>
 </body>
 </html>
